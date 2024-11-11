@@ -1,0 +1,93 @@
+.container-cv{
+  width:100vw;
+}
+
+.cv-container {
+    width: 100%;
+    max-width: 900px;
+    margin:40px  auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    background-color:#fff;
+  }
+  
+  .cv-header {
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+  
+  .cv-title {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    font-size: 14px;
+    display: flex;
+    justify-content:space-around
+  }
+  
+  .cv-main {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .cv-left,
+  .cv-right {
+    width: 48%;
+  }
+  
+  /* Section Titles */
+  h3 {
+    font-size: 18px;
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  /* Education, Research, Awards, and Skills Sections */
+  .education-item,
+  .research-item {
+    margin-bottom: 15px;
+  }
+  
+  .education-item h4,
+  .research-item h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Publications */
+  .publications p {
+    margin-bottom: 10px;
+  }
+  
+  .awards p,
+  .skills ul li {
+    margin-bottom: 10px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .cv-main {
+      flex-direction: column;
+    }
+  
+    .cv-left,
+    .cv-right {
+      width: 100%;
+    }
+  }
+  
